@@ -1,0 +1,16 @@
+GET http://localhost:4000/services/signin
+Content-Type: application/json
+
+{
+    "username":"Christakus"
+}
+
+POST http://localhost:4000/api/signup 
+Content-Type: application/json
+
+{
+    "fullName":"Chris Brewster",
+    "username":"Christakus",
+    "email":"c.brewster@hotmail.co.uk",
+    "password":"Fruitloops1"
+}
